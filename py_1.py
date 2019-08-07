@@ -1,27 +1,27 @@
 print('hello python')
 #闭包函数
-def Func1(x):
-    def Func2(y):
-        return x * y
-    return Func2
+# def Func1(x):
+    # def Func2(y):
+        # return x * y
+    # return Func2
 
-print(Func1(3)(5))
+# print(Func1(3)(5))
 
-def Func1(x):
-    def Func2():
-        return x * x
-    return Func2()
+# def Func1(x):
+    # def Func2():
+        # return x * x
+    # return Func2()
 
-print(Func1(4))
-
-
+# print(Func1(4))
 
 
 
+# g = lambda x : 2 * x + 3
+# print(g(3))
 
-
-
-
+# print(list(filter(None, [0 ,1, True, False])))
+# print(list(filter(lambda x : x % 2, range(99))))
+# print(list(map(lambda x : x * 2, range(10))))
 
 
 
